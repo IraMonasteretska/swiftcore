@@ -1,1 +1,1 @@
-$((function(){}));
+$((function(){$(".services__item-content").on("click",(function(){let i=$(this).find(".services__item-dropdown").height();$(this).hasClass("active")?$(this).animate({height:i},200).removeClass("active"):$(this).animate({height:160},200).addClass("active")}))}));
