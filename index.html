@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SwiftCore Tech</title>
   <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+  <link rel="stylesheet" href="css/lib/aos.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -88,6 +89,8 @@
 
         <div class="whyus__title section-title">
           Why us
+          <div class="title-line" data-aos="example-anim"
+          data-aos-duration="1500"></div>
         </div>
         <div class="container">
           <div class="row justify-content-center">
@@ -151,6 +154,8 @@
         <div class="container">
           <div class="services__title section-title">
             Services
+            <div class="title-line" data-aos="example-anim"
+            data-aos-duration="1500"></div>
           </div>
           <div class="row justify-content-center">
             <div class="col-lg-4 col-md-6">
@@ -241,6 +246,8 @@
         <div class="container">
           <div class="contact__title section-title">
             Contact us
+            <div class="title-line" data-aos="example-anim"
+            data-aos-duration="1500"></div>
           </div>
           <div class="row align-items-center">
             <div class="col-lg-6">
@@ -328,10 +335,6 @@
   </div>
 
 
-
-  <!-- Button trigger modal -->
-
-
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
@@ -355,7 +358,17 @@
 
   <script src="js/lib/jquery.js"></script>
   <script src="js/lib/bootstrap.min.js"></script>
+  <script src="js/lib/aos.js"></script>
   <script src="js/main.js"></script>
+  <script>
+        // animations
+        AOS.init({
+            easing: 'ease-in-out-sine',
+            duration: 800,
+            delay: 100,
+            // disable: 'mobile'
+        });
+    </script>
 
 
 </body>

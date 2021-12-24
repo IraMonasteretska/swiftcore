@@ -311,7 +311,7 @@
   <style>
 
     .location {
-      animation: 10s ease-in-out infinite loc;
+      animation: 12s ease-in-out infinite loc;
     
     }
     
