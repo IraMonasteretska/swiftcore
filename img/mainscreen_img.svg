@@ -816,10 +816,10 @@
 
   .gear {
     animation: 4s linear infinite gearing;
-    transform-origin: 84% 76%;
+    transform-origin: 84% 77%;
   }
     .gear2 {
-    animation: 4s linear infinite gearing;
+    animation: 4s linear infinite reverse gearing;
     transform-origin: 91% 83%;
   }
   
